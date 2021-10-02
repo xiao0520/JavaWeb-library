@@ -1,0 +1,133 @@
+.w {
+    width: 900px;
+    margin: 50px auto;
+    background-color: rgba(200, 200, 200, 0.3);
+    box-shadow: 0 0 10px #009dfd;
+    transition: all 1s;
+    border-radius: 15px;
+}
+
+.w:hover {
+    box-shadow: 0 0 10px #007bff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  	background: url(../img/1.jpg) no-repeat center top;
+   background-size: 100%;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #007bff;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.logo a img {
+    width: 140px;
+    height: 50px;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    box-shadow: 0 0 10px #009dfd;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.reg-form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg-form form {
+
+    font-size: 15px;
+    color: #007bff;
+}
+
+.reg-form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg-form ul li {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 22.4px;
+}
+
+
+.reg-form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border-radius: 10px;
+}
+
+.safe {
+    padding-left: 147px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+    border-radius: 5px;
+}
+
+.zhong {
+    background-color: #40b83f;
+    border-radius: 5px;
+}
+
+.qiang {
+    background-color: #f79100;
+    border-radius: 5px;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 100px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+

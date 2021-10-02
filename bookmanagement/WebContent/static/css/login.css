@@ -1,0 +1,44 @@
+body {
+    position: relative;   
+}
+
+header div {
+    position: absolute;
+    width: 924px;
+    height: 600px;
+    background: url(../images/5.png) no-repeat;
+}
+
+.form {
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    width: 300px;
+    height: 350px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.form table {
+    margin: 120px auto;
+}
+
+.form table input {
+    display: block;
+    margin-top: 15px;
+    width: 242px;
+    height: 37px;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    border-radius: 5px;
+    text-indent: 1em;
+}
+
+.form .last {
+    background-color: skyblue;
+    color: #fff;
+}
+
+.form .change a {
+    font-size: 12px;
+}
